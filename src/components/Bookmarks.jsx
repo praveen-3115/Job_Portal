@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 
-function SavedJobs() {
+function Bookmarks() {
   const [jobs, setJobs] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -158,4 +158,4 @@ function SavedJobs() {
   );
 }
 
-export default SavedJobs;
+export default Bookmarks;

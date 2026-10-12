@@ -10,7 +10,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import JobDetails from "./components/Job_Details";
 import AdminRegister from "./components/Admin/AdminRegister";
 import Login from "./components/Admin/AdminLogin";
-import SavedJobs from "./components/savedjobs";
+import Bookmarks from "./components/Bookmarks";
 
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
@@ -37,7 +37,7 @@ function App() {
           <Route path="/job_details/:id" element={<JobDetails />} />
           <Route path="/adminregister" element={<AdminRegister />} />
           <Route path="/adminlogin" element={<Login />} />
-          <Route path="/saved-jobs" element={<SavedJobs />} />
+          <Route path="/saved-jobs" element={<Bookmarks />} />
         </Routes>
       </BrowserRouter>
     </div>
