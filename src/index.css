@@ -1,0 +1,71 @@
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light theme */
+.theme-light {
+  background-color: #f8f9fa;
+  color: #212529;
+  min-height: 100vh;
+}
+
+/* Dark theme */
+.theme-dark {
+  background-color: #121820;
+  color: #f1f3f5;
+  min-height: 100vh;
+}
+
+.theme-dark .card {
+  background-color: #1e2936;
+  color: #f1f3f5;
+  border-color: #394656;
+}
+
+.theme-dark .form-control,
+.theme-dark .form-select {
+  background-color: #1e2936;
+  color: #f1f3f5;
+  border-color: #495566;
+}
+
+.theme-dark .text-secondary {
+  color: #adb5bd !important;
+}
+
+.theme-dark .dropdown-menu {
+  background-color: #1e2936;
+  border-color: #394656;
+}
+
+.theme-dark .dropdown-item {
+  color: #f1f3f5;
+}
+
+.theme-dark .dropdown-item:hover {
+  background-color: #344253;
+}
+
+
+.jobs-menu-logo {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -1.2px;
+  text-decoration: none;
+  color: #111827 !important;
+  transition: opacity 0.2s ease;
+}
+
+.logo-highlight {
+  color: #2563eb;
+}
+
+.jobs-menu-logo:hover {
+  opacity: 0.8;
+}
+
+/* Dark theme */
+.theme-dark .jobs-menu-logo {
+  color: #f8fafc !important;
+}

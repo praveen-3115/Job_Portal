@@ -1,0 +1,130 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Python Developer",
+      "company": "TechNova Solutions",
+      "location": "Hyderabad",
+      "type": "Full-time",
+      "salary": "3-5 LPA",
+      "skills": [
+        "Python",
+        "Flask",
+        "MySQL"
+      ],
+      "description": "Develop and maintain Python web applications."
+    },
+    {
+      "id": "2",
+      "title": "Frontend Developer",
+      "company": "WebSpark Technologies",
+      "location": "Bengaluru",
+      "type": "Full-time",
+      "salary": "4-6 LPA",
+      "skills": [
+        "React",
+        "JavaScript",
+        "Bootstrap"
+      ],
+      "description": "Build responsive and user-friendly web interfaces."
+    },
+    {
+      "id": "3",
+      "title": "Data Analyst Intern",
+      "company": "Insight Analytics",
+      "location": "Remote",
+      "type": "Internship",
+      "salary": "15000/month",
+      "skills": [
+        "Python",
+        "SQL",
+        "Excel"
+      ],
+      "description": "Analyze datasets and prepare business reports."
+    },
+    {
+      "id": "4",
+      "title": "Backend Developer",
+      "company": "CodeBridge",
+      "location": "Hyderabad",
+      "type": "Full-time",
+      "salary": "4-7 LPA",
+      "skills": [
+        "Python",
+        "REST API",
+        "MySQL"
+      ],
+      "description": "Build APIs and manage server-side application logic."
+    },
+    {
+      "id": "5",
+      "title": "UI/UX Designer",
+      "company": "Creative Labs",
+      "location": "Pune",
+      "type": "Internship",
+      "salary": "12000/month",
+      "skills": [
+        "Figma",
+        "UI Design",
+        "Prototyping"
+      ],
+      "description": "Design intuitive user experiences and interfaces."
+    },
+    {
+      "id": "6",
+      "title": "React Developer Intern",
+      "company": "PixelWorks",
+      "location": "Remote",
+      "type": "Internship",
+      "salary": "18000/month",
+      "skills": [
+        "React",
+        "JavaScript",
+        "CSS"
+      ],
+      "description": "Assist in developing React-based web applications."
+    }
+  ],
+  "users": [
+    {
+      "name": "Praveen Kumar",
+      "email": "praveenkumar123@gmail.com",
+      "password": "123456",
+      "id": "nXzL1LccLXk"
+    },
+    {
+      "name": "Siva",
+      "email": "praveen863945@gmail.com",
+      "password": "123456",
+      "id": "FiLacinJESo"
+    }
+  ],
+  "bookmarks": [
+    {
+      "userId": "FiLacinJESo",
+      "jobId": "1",
+      "id": "0J7kSNPDI4I"
+    },
+    {
+      "userId": "FiLacinJESo",
+      "jobId": "1",
+      "id": "uBvqT3QoMJw"
+    },
+    {
+      "userId": "FiLacinJESo",
+      "jobId": "2",
+      "id": "on4919mNY1c"
+    },
+    {
+      "userId": "FiLacinJESo",
+      "jobId": "1",
+      "id": "0z0KEUmGjdE"
+    },
+    {
+      "userId": "FiLacinJESo",
+      "jobId": "2",
+      "id": "jSjOn5pb4yw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
